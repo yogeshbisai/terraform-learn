@@ -11,12 +11,16 @@ module "ec2-instance" {
 }
 
 output "ec2_pub_ip" {
-    value = module.ec2-instance.ec2_pub_ip
-  
+  value = module.ec2-instance.ec2_pub_ip
+
 }
 
 output "pub_dns" {
-    value = module.ec2-instance.pub_dns
-  
+  value = module.ec2-instance.pub_dns
+
 }
 
+output "priv_ip" {
+  value = module.ec2-instance.priv_ip
+
+}
