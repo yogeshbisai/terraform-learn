@@ -4,8 +4,7 @@ variable "ami_value" {
 }
 
 variable "instance_value" {
-    type = string
-    
+    type = string  
   
 }
 
